@@ -5,7 +5,7 @@ const ShoppingCartProduct = ({data, deleteFromCart}) => {
         <div>
             <h2>{data.name}</h2>
             <p>Price: {data.price}</p>
-            <button onClick={() => deleteFromCart(data.id)}>Delete From Cart</button>
+            <button onClick={() => deleteFromCart(data.id)}>Delete Fromm Cart</button>
         </div>
     )
 }
